@@ -1,0 +1,9 @@
+name: Meu Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:- name: Exibir mensagem
+    run: echo "Hello World"
